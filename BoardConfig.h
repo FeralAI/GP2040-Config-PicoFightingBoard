@@ -53,4 +53,10 @@
 #define LEDS_BUTTON_R2   3
 #define LEDS_BUTTON_L2   4
 
+#define HAS_PLAYER_LEDS
+#define PLED1_PIN 16
+#define PLED2_PIN 17
+#define PLED3_PIN 18
+#define PLED4_PIN 19
+
 #endif
