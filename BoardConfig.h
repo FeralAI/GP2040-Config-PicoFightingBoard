@@ -6,10 +6,10 @@
 #ifndef PICO_FIGHTING_BOARD_CONFIG_H_
 #define PICO_FIGHTING_BOARD_CONFIG_H_
 
-#include <vector>
 #include <GamepadEnums.h>
 #include "enums.h"
 #include "NeoPico.hpp"
+#include "PlayerLEDs.h"
 
 #define PIN_DPAD_UP     1
 #define PIN_DPAD_DOWN   2
@@ -53,7 +53,7 @@
 #define LEDS_BUTTON_R2   3
 #define LEDS_BUTTON_L2   4
 
-#define HAS_PLAYER_LEDS
+#define PLED_TYPE PLED_TYPE_PWM
 #define PLED1_PIN 16
 #define PLED2_PIN 17
 #define PLED3_PIN 18
